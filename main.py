@@ -85,3 +85,7 @@ comp = "Mamiferos : 3\nAves : 2\nReptiles : 1\nPeces : 1\nAnfibios : 2"
 print(comp.replace('\n', ''))
 print(Animal.totalPorTipo().replace('\n', ''))
 print(Animal.totalPorTipo().replace('\n', '') == comp.replace('\n', ''))
+
+ave1 =Ave("paloma", 5, "ciudad", "F", "gris")
+comp = "Mi nombre es paloma, tengo una edad de 5, habito en ciudad y mi genero es F"
+print(ave1.toString() ==  comp)
